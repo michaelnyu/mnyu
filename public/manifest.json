@@ -1,0 +1,11 @@
+{
+  "name": "Creative Labs",
+  "short_name": "CL",
+  "lang": "en-US",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#224A7F",
+  "background_color": "#FCFCFC",
+  "description": "creative labs frontend"
+}
+
