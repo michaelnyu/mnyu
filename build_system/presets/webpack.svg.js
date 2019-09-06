@@ -13,7 +13,6 @@ module.exports = ({ minify }) => ({
         test: /\.svg$/,
         oneOf: [
           {
-            resourceQuery: /icon/,
             use: 'svg-react-loader',
           },
           {

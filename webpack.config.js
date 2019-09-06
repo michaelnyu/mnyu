@@ -30,17 +30,6 @@ const createConfig = ({ mode } = { mode: 'production' }) => {
             exclude: /node_modules/,
             use: 'babel-loader',
           },
-          // file-loader loads fonts for us
-          {
-            test: /\.(eot|svg|ttf|woff(2)?)(\?v=\d+\.\d+\.\d+)?/,
-            use: {
-              loader: 'file-loader',
-              options: {
-                name: '/[name].[hash].[ext]',
-                outputPath: 'static/fonts',
-              },
-            },
-          },
         ],
       },
       optimization: {

@@ -3,9 +3,8 @@ const webpackMerge = require('webpack-merge');
 module.exports = () =>
   webpackMerge(
     {
-      mode: 'development',
-      devtool: 'cheap-module-source-map',
+      mode: 'production',
     },
-    require('./presets/webpack.svg.js')({ minify: false }),
+    require('./presets/webpack.svg.js')({ minify: true }),
     require('./presets/webpack.md.js')(),
   );

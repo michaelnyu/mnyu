@@ -1,11 +1,10 @@
 {
-  "name": "Creative Labs",
-  "short_name": "CL",
+  "name": "Michael Yu",
+  "short_name": "mnyu",
   "lang": "en-US",
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#224A7F",
   "background_color": "#FCFCFC",
-  "description": "creative labs frontend"
+  "description": "Michael Yu Frontpage"
 }
-

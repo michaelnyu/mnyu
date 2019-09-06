@@ -1,9 +1,6 @@
 import React from 'react';
 
 const styles = {
-  side: {
-    display: 'flex',
-  },
   navbar: {
     display: 'flex',
     justifyContent: 'space-between',
@@ -12,8 +9,8 @@ const styles = {
 
 const NavBar = props => (
   <div css={styles.navbar}>
-    <div css={styles.side}>{props.left}</div>
-    <div css={styles.side}>{props.right}</div>
+    <>{props.left}</>
+    <>{props.right}</>
   </div>
 );
 
