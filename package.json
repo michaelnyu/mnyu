@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "description": "the frontpage of michael yu",
   "main": "webpack.config.js",
+  "homepage": "michaelnyu.github.io",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-dev": "yarn webpack-dev-server -- --env.mode development --hot",
-    "build": "yarn webpack -- --env.mode production"
+    "build": "yarn webpack -- --env.mode production",
+    "deploy": "gh-pages -d bin"
   },
   "author": "michaelnyu",
   "license": "ISC",
@@ -37,6 +39,7 @@
     "@emotion/core": "^10.0.10",
     "@emotion/styled": "^10.0.10",
     "compression-webpack-plugin": "^3.0.0",
+    "gh-pages": "^2.1.1",
     "path": "^0.12.7",
     "react": "^16.8.5",
     "react-dom": "^16.8.5",
