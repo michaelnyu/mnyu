@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactMarkdown from 'react-markdown';
-import { GRID_UNIT, VIEW_WIDTH } from '~/src/shared/styles';
+import { GRID_UNIT, VIEW_STYLES } from '~/src/shared/styles';
 import { headingStyles, pStyles, FONT_WEIGHT } from '~/src/shared/typography';
 
 const styles = {
@@ -10,9 +10,8 @@ const styles = {
       fontWeight: FONT_WEIGHT.BOLD,
     }),
     '> p': pStyles({
-      marginBottom: GRID_UNIT * 8,
       '> img': {
-        maxWidth: VIEW_WIDTH,
+        ...VIEW_STYLES,
       },
       '> code': {
         backgroundColor: '#E8E8E8',

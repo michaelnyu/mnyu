@@ -12,7 +12,7 @@ export const leftNavbar = (
 
 export const rightNavbar = (
   <div css={{ display: 'flex', alignItems: 'center' }}>
-    <Link to="/">
+    <Link to="/about">
       <Heading css={{ display: 'inline' }} color={FONT_COLORS.GRAY}>
         about
       </Heading>

@@ -7,4 +7,5 @@ module.exports = () =>
     },
     require('./presets/webpack.svg.js')({ minify: true }),
     require('./presets/webpack.md.js')(),
+    require('./presets/webpack.image.js')(),
   );

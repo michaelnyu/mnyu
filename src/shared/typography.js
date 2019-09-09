@@ -11,13 +11,15 @@ export const COLOR_DATA = {
   BLACK: '#1A1A1A',
   GRAY_OPACITY: 0.4,
   FULL_OPACITY: 1.0,
+  BLUE: '#257CFF',
+  YELLOW_2: '#A49522',
 };
 
 export const BASE_FONT_FAMILY = "'PT Serif', serif";
 
 const BASE_FONT = {
-  '-webkit-font-smoothing': 'antialiased',
-  '-moz-osx-font-smoothing': 'grayscale',
+  WebkitFontSmoothing: 'antialiased',
+  MozOsxFontSmoothing: 'grayscale',
 };
 
 export const FONT_WEIGHT = {
@@ -66,7 +68,7 @@ export const pStyles = ({ color, ...overrideStyles } = {}) => {
     fontWeight: FONT_WEIGHT.REGULAR,
     opacity,
     color: COLOR_DATA.BLACK,
-    margin: 0,
+    margin: `0 0 ${GRID_UNIT * 8}px 0`,
     padding: 0,
     lineHeight: 1.3,
     ...BASE_FONT,
@@ -76,4 +78,25 @@ export const pStyles = ({ color, ...overrideStyles } = {}) => {
 
 export const P = ({ children, color }) => (
   <p css={pStyles({ color })}>{children}</p>
+);
+
+/*
+  Anchor
+*/
+
+export const aStyles = ({ ...overrideStyles } = {}) => {
+  return {
+    textDecoration: 'none',
+    color: COLOR_DATA.YELLOW_2,
+    '&:hover,&:focus': {
+      textDecoration: 'underline',
+    },
+    ...overrideStyles,
+  };
+};
+
+export const A = ({ children, css, ...attr } = {}) => (
+  <a css={aStyles(css)} {...attr}>
+    {children}
+  </a>
 );
