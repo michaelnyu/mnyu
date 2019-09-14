@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link as ReactRouterLink } from 'react-router-dom';
 
 const styles = {
   link: {
@@ -7,10 +7,10 @@ const styles = {
   },
 };
 
-const NavBar = ({ children, ...otherProps }) => (
-  <Link css={styles.link} {...otherProps}>
+const Link = ({ children, ...otherProps }) => (
+  <ReactRouterLink css={styles.link} {...otherProps}>
     {children}
-  </Link>
+  </ReactRouterLink>
 );
 
-export default NavBar;
+export default Link;

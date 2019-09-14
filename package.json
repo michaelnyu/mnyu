@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "the frontpage of michael yu",
   "main": "webpack.config.js",
-  "homepage": "mnyu.cc",
+  "homepage": "http://www.mnyu.cc",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-dev": "yarn webpack-dev-server -- --env.mode development --hot",

@@ -1,8 +1,15 @@
 import autonomy from './autonomy.md';
 import jsdom from './jsdom.md';
 import comfortable from './comfortable.md';
+import perfection from './perfection.md';
 
 const POSTS = {
+  perfection: {
+    md: perfection,
+    title: 'Perfection',
+    summary: 'The pursuit of a non-existent perfection.',
+    date: 'Sept 2019',
+  },
   comfortable: {
     md: comfortable,
     title: 'Is it a sin to be comfortable?',
