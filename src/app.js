@@ -52,7 +52,7 @@ const App = () => {
             <Route exact path="/" component={HomePage} />
             <Route path="/about/" component={GenericSuspenceLoad(AboutPage)} />
             {postRoutes}
-            <Redirect to="/" />
+            <Route component={HomePage} />
           </Switch>
         </div>
       </div>
