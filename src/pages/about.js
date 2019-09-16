@@ -33,8 +33,9 @@ const About = () => {
         brokerage that is reducing waste), and{' '}
         <A href="https://techcrunch.com/2018/06/19/yahoo-mail-go/">Yahoo</A>{' '}
         (working on Mail for mobile web). Some of my spare time is consumed by
-        reading about web performance and other client side goodies - chat with
-        me if you’re interested too.
+        reading about web performance and other client side goodies. As well as
+        dreaming about parks, libraries, and the future of social
+        infrastructure. I'd love to chat if you're interested as well!
       </P>
       <P>
         Don't be a stranger!
