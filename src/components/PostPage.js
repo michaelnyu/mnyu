@@ -13,13 +13,17 @@ const styles = {
       '> img': {
         ...VIEW_STYLES,
       },
+    }),
+    '> pre': {
+      whiteSpace: 'pre-wrap',
+      wordBreak: 'break-word',
       '> code': {
         backgroundColor: '#E8E8E8',
         borderRadius: 2,
         padding: '0 4px 0 4px',
         fontSize: 16,
       },
-    }),
+    },
   },
 };
 
