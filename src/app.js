@@ -1,10 +1,5 @@
 import React, { useMemo } from 'react';
-import {
-  Route,
-  BrowserRouter as Router,
-  Switch,
-  Redirect,
-} from 'react-router-dom';
+import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
 import NavBar from '~/src/pages/navbar';
 import HomePage from '~/src/pages/home';
 import { VIEW_STYLES, GRID_UNIT } from '~/src/shared/styles';
