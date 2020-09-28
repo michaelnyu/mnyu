@@ -21,33 +21,30 @@ const About = () => {
       <P>
         I am a student, but have a distaste for classrooms and lectures. I am an
         engineer that tries to work on things that both interest me and help
-        others. I am a person who enjoys weekend trips, wrestling to get on top
-        of small rocks, and starting books that I will never finish.
+        others. I am a person who enjoys weekend trips, grocery stores at night,
+         and starting books destined to never be finished.
       </P>
       <P>
-        I’m currently at UCLA enjoying the sunshine that the city brings.
-        Throughout my short career, I have worked at{' '}
-        <A href="https://tech.affirm.com/">Affirm</A> (a company that offers
-        loans for consumer products - helping us avoid credit card debt and late
-        fees), <A href="https://convoy.com/"> Convoy</A> (a digital freight
-        brokerage that is reducing waste), and{' '}
-        <A href="https://techcrunch.com/2018/06/19/yahoo-mail-go/">Yahoo</A>{' '}
-        (working on Mail for mobile web).
+        I was at UCLA enjoying the sunshine that Los Angeles brings - it will always have
+        a special place in my heart.  I currently work at <A href="https://figma.com">Figma</A>{' '}
+        as a part of an amazing team that is building <A href="https://figma.com/c">Community</A>.
+        But, throughout my short career, I have worked at{' '}
+        <A href="https://affirm.com/">Affirm</A>,{' '}<A href="https://convoy.com/">Convoy</A>, and{' '}
+        <A href="https://techcrunch.com/2018/06/19/yahoo-mail-go/">Yahoo</A>{' '}.
       </P>
       <P>
-        Some of my spare time is consumed by reading about web performance and
-        other client side goodies. As well as dreaming about parks, libraries,
-        and the future of social infrastructure. I'd love to chat if you're
-        interested as well!
+        The latest thing I created is a <A href="https://sevenonefour.mnyu.cc">game</A> for my college apartment mates.  Please feel free to
+        check it out as well!  Lastly, if you made it this far and feel inclined, my DMs on twitter are always open.  I'd love to know
+        what you thought about the game I made!
       </P>
       <P>
-        Don't be a stranger!
+        Please don't be a stranger!
         <br />
         <A href="https://twitter.com/michaelnyu1">Twitter</A> (tangentially
         related to tech)
-        <br />
+        {/* <br />
         <A href="https://www.instagram.com/michaelyyou/">Instagram</A>{' '}
-        (unmoderated & unfiltered view into my life)
+        (unmoderated & unfiltered view into my life) */}
       </P>
     </>
   );

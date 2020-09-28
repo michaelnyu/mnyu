@@ -19,6 +19,7 @@ const styles = {
   },
   date: {
     opacity: 0.4,
+    marginLeft: `${GRID_UNIT * 2}px`,
   },
 };
 
@@ -28,7 +29,7 @@ const PostEntry = ({ title, summary, date, ...otherProps }) => (
       <div css={styles.background}>
         <Heading color={FONT_COLORS.BLACK}>{title}</Heading>
         <Heading color={FONT_COLORS.GRAY}>
-          {summary} <span css={styles.date}>{date}</span>
+          {summary}<span css={styles.date}>{date}</span>
         </Heading>
       </div>
     </div>
